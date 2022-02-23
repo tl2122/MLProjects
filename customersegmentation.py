@@ -1,9 +1,14 @@
+# -*- coding: utf-8 -*-
+"""CustomerSegmentation.ipynb
+"""
+
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dataset = pd.read_csv('creditcarddata.csv')
+#Dataset:https://www.kaggle.com/arjunbhasin2013/ccdata
+dataset = pd.read_csv('/content/creditcarddata.csv')
 
 dataset.head()
 dataset.shape
@@ -72,7 +77,8 @@ kmeans = KMeans(n_clusters=8, init='k-means++', random_state=0)
 # Determine Dependent Variable 
 y_means = kmeans.fit_predict(dataset)
 
-print (y_means)
+y_means
+
 y_means = y_means.reshape(len(y_means),1)
 b = np.concatenate((y_means,df), axis=1)
 
