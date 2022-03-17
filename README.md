@@ -1,5 +1,5 @@
 # MLProjects 
-Description of the project and goals
+In this repository I have documented application of machine learning techniques to various publically available data. These are implemented in python using scikit-learn, pandas, and numpy packages.
 
 ## Performance
 Types of problems addressed in each project.
