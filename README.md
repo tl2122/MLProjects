@@ -11,7 +11,7 @@ Specfic solutions used.
 |Customer Segmentation|-|K-Means|
 |Restaurant Review Classification|73|Gaussian NB|
 |Credit Card Fraud Detection|99.95|RandomForest|
-
+|Traffic Sign Identification|86.8|Deep NN, Conv-net|
 
 ## Projects
 1. Forest Cover Type
@@ -44,3 +44,9 @@ Specfic solutions used.
    - Unbalanced Dataset: 0.17% positives(fraudlent)
    - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud (Université Libre de Bruxelles)
 
+6. Traffic Signs Identification
+   - Dataset:  https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-preprocessed 
+      (German Traffic Sign Recognition Benchmarks (GTSRB))
+   - Deep Conv-net with 2 layers and Funtional API in tensorflow/keras.
+   - Unnormalized, and color images used here. 85% accuracy achieved. 
+   
