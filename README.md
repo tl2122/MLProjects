@@ -10,8 +10,10 @@ Specfic solutions used.
 |Breast Cancer Detection|97|Neural Net|
 |Customer Segmentation|-|K-Means|
 |Restaurant Review Classification|73|Gaussian NB|
+|                                |70| Generated embeddings|
 |Credit Card Fraud Detection|99.95|RandomForest|
 |Traffic Sign Identification|86.8|Deep NN, Conv-net|
+|Character-level Language Model|-|RNN, NLP| 
 
 ## Projects
 1. Forest Cover Type
@@ -35,7 +37,8 @@ Specfic solutions used.
 
 4. Restaurant Review Classification
    - Sentiment Analysis of restaurant reviews using binary classifier (positive/negative).
-   - Feature extraction from Text - CountVectorizer, Bag of Words
+   - Feature extraction from Text - CountVectorizer, Bag of Words 
+   - Also created and tested custom embeddings (tf.keras.layers.Embedding); did not improve on CountVectorizer
    - Dataset: https://www.kaggle.com/akram24/restaurant-reviews
 
 
@@ -49,4 +52,8 @@ Specfic solutions used.
       (German Traffic Sign Recognition Benchmarks (GTSRB))
    - Deep Conv-net with 2 layers and Funtional API in tensorflow/keras.
    - Unnormalized, and color images used here. 85% accuracy achieved. 
-   
+
+7. Character Level Language Model 
+  - Built Language model using RNN, on dataset of dinosaur names
+  - Tested language model by varying hyperparameters and generating new names.
+
