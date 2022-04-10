@@ -54,6 +54,6 @@ Specfic solutions used.
    - Unnormalized, and color images used here. 85% accuracy achieved. 
 
 7. Character Level Language Model 
-  - Built Language model using RNN, on dataset of dinosaur names
-  - Tested language model by varying hyperparameters and generating new names.
+   - Built Language model using RNN, on dataset of dinosaur names
+   - Tested language model by varying hyperparameters and generating new names.
 
