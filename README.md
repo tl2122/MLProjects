@@ -15,6 +15,7 @@ Specfic solutions used.
 |Traffic Sign Identification|86.8|Deep NN, Conv-net|
 |Character-level Language Model|-|RNN, NLP| 
 |MBTI Classification with Text |77|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
+|Protein Structure|-|RandomForest, MultiOutputClassifier|
 
 ## Projects
 1. Forest Cover Type
@@ -58,12 +59,16 @@ Specfic solutions used.
    - Built Language model using RNN, on dataset of dinosaur names
    - Tested language model by varying hyperparameters and generating new names.
 
-7. MBTI Classification with Text  
+8. MBTI Classification with Text  
    - Analysis on language styles and online behavior to predict personality type
    - Built and Trained two classifiers: multi-class with full range of classes (INFJ - ESTP), as 
       well as binary introvert vs extrovert classifier.  
    - Vectorization/Tokenization, Embedding, bi-directional RNN with GRU
    - Dataset: kaggle.com/datasets/datasnaek/mbti-type
 
+9. Protein Structure Prediction
+   - Protein shape prediction based on amino-acid sequence
+   - Multi-class, multi-output, sequence prediction
+   - Data:https://archive.ics.uci.edu/ml/datasets
 
 
