@@ -15,7 +15,7 @@ Specfic solutions used.
 |Traffic Sign Identification|86.8|Deep NN, Conv-net|
 |Character-level Language Model|-|RNN, NLP| 
 |MBTI Classification with Text |77|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
-|Protein Structure|-|RandomForest, MultiOutputClassifier|
+|Protein Structure|-|RandomForest, MultiOutputClassifier, LSTM|
 
 ## Projects
 1. Forest Cover Type
@@ -70,5 +70,8 @@ Specfic solutions used.
    - Protein shape prediction based on amino-acid sequence
    - Multi-class, multi-output, sequence prediction
    - Data:https://archive.ics.uci.edu/ml/datasets
+
+10. Protein Structure Prediction with LSTM
+   - Same input as 9. LSTM used for protein sequence to shape modelling
 
 
