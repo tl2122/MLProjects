@@ -12,10 +12,9 @@ print("Columns\n",dataset.head(),'\n',
       "Null Values ",dataset.isnull().any().sum()
       )
 
+##Split Dataset into train/test samples
 from sklearn.ensemble import RandomForestClassifier 
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import  StandardScaler
-sc      = StandardScaler()
 
 x = dataset.drop(columns=["Time","Class"])
 y = dataset.iloc[:,-1]
@@ -23,9 +22,16 @@ y = dataset.iloc[:,-1]
 
 x_train,  x_test, y_train, y_test = train_test_split\
                                     (x,y,test_size=0.2)
+
+from sklearn.preprocessing import  StandardScaler
+##Normalize Data
+sc      = StandardScaler()
 #x_train = sc.fit_transform(x_train)
 #x_test  = sc.transform(x_test)
 
+##Since dataset is highly imbalanced (see description) between positive and negative
+##cases, balanced sampling is used. An unbalanced sampled model is also trained 
+##for comparison.
 cl_rf_balanced = RandomForestClassifier(class_weight='balanced',random_state=0)
 cl_rf_default  = RandomForestClassifier(random_state=0)
 cl_rf_balanced.fit(x_train,y_train)
@@ -34,6 +40,8 @@ cl_rf_default .fit(x_train,y_train)
 y_pred_balanced = cl_rf_balanced.predict(x_test)
 y_pred_default  = cl_rf_default .predict(x_test)
 
+
+##Results comparing balanced and unbalanced classifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 acc = accuracy_score(y_test,y_pred_balanced)
 cm  = confusion_matrix(y_test, y_pred_balanced)
