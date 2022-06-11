@@ -16,6 +16,7 @@ Specfic solutions used.
 |Character-level Language Model|-|RNN, NLP| 
 |MBTI Classification with Text |77|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
 |Protein Structure|-|RandomForest, MultiOutputClassifier, LSTM|
+|Book Recommendation|-|Embeddings, NN|
 
 ## Projects
 1. Forest Cover Type
@@ -74,4 +75,4 @@ Specfic solutions used.
 10. Protein Structure Prediction with LSTM
    - Same input as 9. LSTM used for protein sequence to shape modelling
 
-
+11. Book Recommendation System based on user ratings data.
