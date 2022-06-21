@@ -17,6 +17,7 @@ Specfic solutions used.
 |MBTI Classification with Text |77|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
 |Protein Structure|-|RandomForest, MultiOutputClassifier, LSTM|
 |Book Recommendation|-|Embeddings, NN|
+|Disease Prediction|100|Gaussian NB, Random Forest, SVC|
 
 ## Projects
 1. Forest Cover Type
@@ -76,3 +77,5 @@ Specfic solutions used.
    - Same input as 9. LSTM used for protein sequence to shape modelling
 
 11. Book Recommendation System based on user ratings data.
+12. Disease Prediction
+
