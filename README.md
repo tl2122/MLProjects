@@ -18,6 +18,7 @@ Specfic solutions used.
 |Protein Structure|-|RandomForest, MultiOutputClassifier, LSTM|
 |Book Recommendation|-|Embeddings, NN|
 |Disease Prediction|100|Gaussian NB, Random Forest, SVC|
+|Arrhythmia|70|Random Forest, GradientBoosting,SVC, MLP|
 
 ## Projects
 1. Forest Cover Type
@@ -78,4 +79,4 @@ Specfic solutions used.
 
 11. Book Recommendation System based on user ratings data.
 12. Disease Prediction
-
+13. Arrhythmia detection and classification
