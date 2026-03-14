@@ -1,12 +1,15 @@
 ---
-title: My MLProjects Page
+title: My ML Projects
 layout: default
 ---
 # Machine Learning Projects
 The projects are written as jupyter notebooks, in the repository [here](https://github.com/tl2122/MLProjects).
 Most recent projects:
 1. LSTM to predict Air Quality (Time Series)
-2. BERT-style Transformer Encoder Architecture with MLM Head
+2. Protein Sequence Prediction with BERT-style Transformer Encoder Architecture
+
+
+
 
 <footer style="margin-top:40px; padding:10px; text-align:left; font-size:14px; color:#555; border-top:1px solid #eee;">
 © {{ site.time | date: "%Y" }} 
