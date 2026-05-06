@@ -8,18 +8,18 @@ Specfic solutions used.
 |---|---|---|--|
 |Forest Cover Type      |97.8|76.6|K-NN|
 |Breast Cancer Detection|97   |94.7|Neural Net|
-|Customer Segmentation|-|K-Means|
+|Customer Segmentation|-      |-    |K-Means|
 |Restaurant Review Classification|73|73 | Gaussian NB|
 |(same as above)                 |70|Generated embeddings|
-|Credit Card Fraud Detection|99.95|99.83|RandomForest|
-|Traffic Sign Identification|86.8 |98|Deep NN, Conv-net|
+|Credit Card Fraud Detection     |99.95|99.83|RandomForest|
+|Traffic Sign Identification     |86.8 |98|Deep NN, Conv-net|
 |Character-level Language Model|-|-|RNN, NLP| 
 |MBTI Classification with Text |77| 54|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
 |Protein Structure|-|-|RandomForest, MultiOutputClassifier, LSTM|
 |Book Recommendation|-|-|Embeddings, NN|
 |Disease Prediction  |100|95|Gaussian NB, Random Forest, SVC|
 |Arrhythmia|70|78|Random Forest, GradientBoosting,SVC, MLP|
-|Credit Risk|-|Logistic Regression, WOE, IV|
+|Credit Risk|-                   |-|Logistic Regression, WOE, IV|
 |Protein Structure|35(4M Param.)|35(8M Param.)| Transformers| 
 
 ## Projects
