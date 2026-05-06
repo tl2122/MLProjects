@@ -10,7 +10,7 @@ Specfic solutions used.
 |Breast Cancer Detection|97   |94.7|Neural Net|
 |Customer Segmentation|-      |-    |K-Means|
 |Restaurant Review Classification|73|73 | Gaussian NB|
-|(same as above)                 |70|Generated embeddings|
+|(same as above)                 |70|   |Generated embeddings|
 |Credit Card Fraud Detection     |99.95|99.83|RandomForest|
 |Traffic Sign Identification     |86.8 |98|Deep NN, Conv-net|
 |Character-level Language Model|-|-|RNN, NLP| 
