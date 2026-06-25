@@ -2,25 +2,27 @@
 In this repository I have documented application of machine learning techniques to various publically available data. These are implemented in python using scikit-learn, pandas, and numpy packages.
 
 ## Performance
-Types of problems addressed in each project.
-Specfic solutions used.
-|Project|Best Accuracy (%)|Baseline Accuracy (*Gemini, Google*) |Model|
-|---|---|---|--|
-|Forest Cover Type      |97.8|76.6|K-NN|
-|Breast Cancer Detection|97   |94.7|Neural Net|
-|Customer Segmentation|-      |-    |K-Means|
-|Restaurant Review Classification|73|73 | Gaussian NB|
-|(same as above)                 |70|   |Generated embeddings|
-|Credit Card Fraud Detection     |99.95|99.83|RandomForest|
-|Traffic Sign Identification     |86.8 |98|Deep NN, Conv-net|
-|Character-level Language Model|-|-|RNN, NLP| 
-|MBTI Classification with Text |77| 54|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
-|Protein Structure|-|-|RandomForest, MultiOutputClassifier, LSTM|
-|Book Recommendation|-|-|Embeddings, NN|
-|Disease Prediction  |100|95|Gaussian NB, Random Forest, SVC|
-|Arrhythmia|70|78|Random Forest, GradientBoosting,SVC, MLP|
-|Credit Risk|-                   |-|Logistic Regression, WOE, IV|
+=======
+|Project|Best Accuracy (%)|Model|
+|---|---|---|
+|Forest Cover Type|97.8|K-NN|
+|Breast Cancer Detection|97|Neural Net|
+|Customer Segmentation|-|K-Means|
+|Restaurant Review Classification|73|Gaussian NB|
+|                                |70|Generated embeddings|
+|Credit Card Fraud Detection|99.95|RandomForest|
+|Traffic Sign Identification|86.8|Deep NN, Conv-net|
+|Character-level Language Model|-|RNN, NLP| 
+|MBTI Classification with Text |77|Bi-Directional RNN,Vectorization,Embeddings, GRU, NLP| 
+|Protein Structure|-|RandomForest, MultiOutputClassifier, LSTM|
+|Book Recommendation|-|Embeddings, NN|
+|Disease Prediction|100|Gaussian NB, Random Forest, SVC|
+|Arrhythmia|70|Random Forest, GradientBoosting,SVC, MLP|
+|Credit Risk|-|Logistic Regression, WOE, IV|
 |Protein Structure|35(4M Param.)|35(8M Param.)| Transformers| 
+|Transit Reliability Analytics|-|LangGraph|
+|Scientific Literature Retrieval|Semantic Search Best Performance|BGE + Hybrid Retrieval|
+
 
 ## Projects
 1. Forest Cover Type
@@ -83,3 +85,20 @@ Specfic solutions used.
 12. Disease Prediction
 13. Arrhythmia detection and classification
 14. Credit Risk
+15. Transit Reliability Analytics
+    - Transit route reliability ranking system built on GTFS data using LangGraph to 
+      orchestrate a modular analytics pipeline.
+    - Reliability scores computed from operational activity, service frequency, 
+        and schedule consistency metrics, producing a ranked routes dataset for 
+        downstream analysis and visualization.
+    - The final result is a structured dataset suitable for downstream analysis and 
+        visualization, allowing users to compare routes by reliability in a consistent, repeatable manner.
+
+16. Scientific Literature Retrieval
+    - Retrieval-Augmented Generation (RAG) system for research documents combining semantic search, 
+        keyword search (BM25), and hybrid fusion over indexed scientific literature.
+    - Results showed semantic retrieval provided the most reliable relevance 
+        matching, while keyword search aided exact term lookup and hybrid fusion highlighted 
+        opportunities for improved score balancing and reranking.
+
+
